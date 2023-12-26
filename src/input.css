@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+    @apply py-10 md:py-20
+}
+
+section .subtitle {
+    @apply text-lg text-primary font-semibold uppercase mb-2;
+}
+
+section .title {
+    @apply text-4xl text-slate-900 font-semibold;
+}
+
+section .description {
+    @apply text-sm md:text-base text-gray-500;
+}
+
+.container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8
+}
+
+.navbar-link {
+    @apply text-base text-slate-900 md:text-gray-700 hover:text-white md:hover:text-indigo-500 transition-all font-normal
+}
+
+.bg-primary {
+    @apply bg-[#ef4b6c] hover:bg-indigo-500 transition-all
+}
+
+.btn {
+    @apply py-3 px-7 rounded font-semibold text-sm uppercase transition-all
+}
+
+.btn-sm {
+    @apply py-2 px-5 rounded font-semibold text-sm uppercase transition-all
+}
+
+.btn-primary {
+    @apply bg-primary text-white hover:bg-indigo-500
+}
+
+.btn-secondary {
+    @apply bg-indigo-500 text-white hover:bg-indigo-600
+}
+
+.btn-icon {
+    @apply transition rounded text-white hover:text-indigo-500 font-semibold text-2xl;
+}
+
+.card {
+    @apply relative bg-white border border-gray-200 rounded-lg py-10 px-7 transition
+}
+
+.card:hover {
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
+    @apply border-white;
+}
+
+.card::after {
+    content: '';
+    @apply w-full h-full absolute top-0 left-0 bg-[#7371f9] transition rounded-lg z-[-1]
+}
+
+.card:hover::after {
+    transform: rotate(-10deg)
+}
+
+.card .card-title {
+    @apply text-2xl text-slate-900 font-semibold mb-2
+}
+
+.card .card-description {
+    @apply text-gray-500 text-sm md:text-base
+}

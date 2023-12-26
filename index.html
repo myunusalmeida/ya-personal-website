@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./dist/avatar.jpeg" type="image/x-icon">
+    <title>My First Portfolio</title>
+
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="relative">
+        <div class="container">
+            <nav class="flex items-center justify-between py-7">
+                <a href="#" class="flex items-baseline gap-1 text-slate-900 font-bold text-xl">YA <span
+                        class="w-2 h-2 bg-primary rounded-full"></span></a>
+                <div id="navMenu"
+                    class="invisible md:visible opacity-0 md:opacity-100 flex flex-col md:flex-row w-10/12 md:w-auto top-10 right-9 md:top-0 md:right-0 rounded-md md:rounded-none shadow-2xl shadow-slate-200 md:shadow-none p-5 md:p-0 items-center gap-7 fixed md:relative bg-white md:bg-transparent transition-all duration-1000 ease-in-out">
+                    <a href="#" class="navbar-link">Home</a>
+                    <a href="#" class="navbar-link">About Me</a>
+                    <a href="#" class="navbar-link">Service</a>
+                    <a href="#" class="navbar-link">Portfolio</a>
+                    <a href="#" class="navbar-link">Blog</a>
+                    <a href="#" class="btn btn-primary ms-0 md:ms-5">Let's Chat</a>
+                </div>
+                <button id="navToggle" class="bg-white text-2xl w-10 h-10 rounded-md block md:hidden">
+                    <i class="bx bx-menu"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section>
+        <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-10">
+                <div>
+                    <p class="subtitle mb-2">
+                        Front-End Web Developer
+                    </p>
+                    <h1 class="text-7xl text-slate-900 font-semibold mb-3">
+                        Hai, I'm Yunus Almeida
+                    </h1>
+                    <p class="text-xl text-slate-900 font-normal mb-7">
+                        Front-End Web Developer From Jakarta
+                    </p>
+                    <a href="#" class="btn btn-primary">Let's Chat</a>
+                </div>
+                <div
+                    class="rounded-full p-3 border border-indigo-200 w-8/12 h-8/12 md:w-11/12 md:h-11/12 ms-0 md:ms-auto">
+                    <img src="./dist/avatar.jpeg" alt="My Photo Profile" class="rounded-full" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section>
+        <div class="container">
+            <p class="mb-0 text-center subtitle">service</p>
+            <h5 class="text-center title mb-5">My Services</h5>
+            <p class="text-center description mb-10">
+                Create an attractive and memorable website appearance
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="card">
+                    <img src="./dist/browser.png" class="w-16 mb-5" alt="Web Browser" />
+                    <h5 class="card-title">Web Development</h5>
+                    <p class="card-description">
+                        Create a website that is responsive and easy to use
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./dist/web-design.png" alt="Website Design" class="w-16 mb-5" />
+                    <h5 class="card-title">Web Design</h5>
+                    <p class="card-description">
+                        Create a website that is responsive and easy to use
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./dist/seo.png" alt="Search Engine Optimization" class="w-16 mb-5" />
+                    <h5 class="card-title">SEO</h5>
+                    <p class="card-description">
+                        Create a website that is responsive and easy to use
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="bg-indigo-50">
+        <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 justify-between items-center">
+                <img src="./dist/avatar.jpeg" alt="" class="w-full md:w-11/12 rounded-lg"
+                    style="transform: scaleX(-1);">
+                <div>
+                    <p class="subtitle">
+                        About Me
+                    </p>
+                    <h1 class="title mb-5">
+                        I'm freelancer Front-End Web Developer, I work from anywhere
+                    </h1>
+                    <p class="description mb-3">
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                        id est
+                        laborum.
+                    </p>
+                    <p class="description mb-5">
+                        Tabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="grid grid-cols-2 gap-10 md:gap-20 mb-10">
+                        <div>
+                            <div class="mb-3">
+                                <p class="mb-0 text-slate-900 font-semibold uppercase">name</p>
+                                <p class="mb-0 text-gray-500">Yunus Almeida</p>
+                            </div>
+                            <div class="mb-3">
+                                <p class="mb-0 text-slate-900 font-semibold uppercase">email</p>
+                                <p class="mb-0 text-gray-500">muhammadyunusalmeida@gmail.com</p>
+                            </div>
+                            <div class="mb-3">
+                                <p class="mb-0 text-slate-900 font-semibold uppercase">phone</p>
+                                <p class="mb-0 text-gray-500">+62 851-6136-3585</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mb-3">
+                                <p class="mb-0 text-slate-900 font-semibold uppercase">age</p>
+                                <p class="mb-0 text-gray-500">24 Years</p>
+                            </div>
+                            <div class="mb-3">
+                                <p class="mb-0 text-slate-900 font-semibold uppercase">education</p>
+                                <p class="mb-0 text-gray-500">Universitas Indonesia Malang</p>
+                            </div>
+                            <div class="mb-3">
+                                <p class="mb-0 text-slate-900 font-semibold uppercase">freelance</p>
+                                <p class="mb-0 text-gray-500">Available</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <a href="#" class="btn btn-primary">Let's Chat</a>
+                        <a href="#" class="btn btn-secondary">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTOFOLIO -->
+    <section>
+        <div class="container">
+            <p class="subtitle text-center">portfolio</p>
+            <h5 class="title text-center mb-5">My Portfolio</h5>
+            <p class="description text-center mb-10">
+                Create an attractive and memorable website appearance
+            </p>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-10">
+                <div class="relative overflow-hidden rounded-md group">
+                    <img src="./dist/portfolio-item-01.jpg" alt="Portoflio 1" class="rounded-md">
+                    <div class="bg-white w-11/12 rounded-md py-5 px-3 absolute bottom-[-20%] group-hover:bottom-[20%] left-[50%] transition-all duration-300"
+                        style="transform: translate(-50%, 50%);">
+                        <h5 class="text-xl text-slate-900 font-semibold mb-5">Kursi Terbalik</h5>
+                        <a href="#" class="btn-sm btn-primary">View Detail</a>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-md group">
+                    <img src="./dist/portfolio-item-02.jpg" alt="Portoflio 1" class="rounded-md">
+                    <div class="bg-white w-11/12 rounded-md py-5 px-3 absolute bottom-[-20%] group-hover:bottom-[20%] left-[50%] transition-all duration-300"
+                        style="transform: translate(-50%, 50%);">
+                        <h5 class="text-xl text-slate-900 font-semibold mb-5">Kursi Terbalik</h5>
+                        <a href="#" class="btn-sm btn-primary">View Detail</a>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-md group">
+                    <img src="./dist/portfolio-item-03.jpg" alt="Portoflio 1" class="rounded-md">
+                    <div class="bg-white w-11/12 rounded-md py-5 px-3 absolute bottom-[-20%] group-hover:bottom-[20%] left-[50%] transition-all duration-300"
+                        style="transform: translate(-50%, 50%);">
+                        <h5 class="text-xl text-slate-900 font-semibold mb-5">Kursi Terbalik</h5>
+                        <a href="#" class="btn-sm btn-primary">View Detail</a>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-md group">
+                    <img src="./dist/portfolio-item-04.jpg" alt="Portoflio 1" class="rounded-md">
+                    <div class="bg-white w-11/12 rounded-md py-5 px-3 absolute bottom-[-20%] group-hover:bottom-[20%] left-[50%] transition-all duration-300"
+                        style="transform: translate(-50%, 50%);">
+                        <h5 class="text-xl text-slate-900 font-semibold mb-5">Kursi Terbalik</h5>
+                        <a href="#" class="btn-sm btn-primary">View Detail</a>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-md group">
+                    <img src="./dist/portfolio-item-05.jpg" alt="Portoflio 1" class="rounded-md">
+                    <div class="bg-white w-11/12 rounded-md py-5 px-3 absolute bottom-[-20%] group-hover:bottom-[20%] left-[50%] transition-all duration-300"
+                        style="transform: translate(-50%, 50%);">
+                        <h5 class="text-xl text-slate-900 font-semibold mb-5">Kursi Terbalik</h5>
+                        <a href="#" class="btn-sm btn-primary">View Detail</a>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-md group">
+                    <img src="./dist/portfolio-item-06.jpg" alt="Portoflio 1" class="rounded-md">
+                    <div class="bg-white w-11/12 rounded-md py-5 px-3 absolute bottom-[-20%] group-hover:bottom-[20%] left-[50%] transition-all duration-300"
+                        style="transform: translate(-50%, 50%);">
+                        <h5 class="text-xl text-slate-900 font-semibold mb-5">Kursi Terbalik</h5>
+                        <a href="#" class="btn-sm btn-primary">View Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="bg-slate-100">
+        <div class="container">
+            <p class="subtitle text-center">testimonial</p>
+            <h5 class="title text-center mb-10">What My Clients Say</h5>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="bg-white p-10 rounded-md">
+                    <div class="text-center mb-5">
+                        <i class='bx bxs-quote-alt-left text-primary text-2xl'></i>
+                    </div>
+
+                    <p class="mb-5 text-center text-sm text-gray-500 italic">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cumque minus rerum unde,
+                        ullam labore
+                        aliquid amet facilis, provident quos neque tempore quaerat blanditiis. Consectetur id tempora
+                        aperiam eius
+                        explicabo.
+                    </p>
+
+                    <img src="./dist/testimoni1.jpeg" alt=""
+                        class="rounded-full block mx-auto w-14 h-14 object-cover mb-3">
+                    <h5 class="text-center text-slate-900 font-medium">Hanan Almeida</h5>
+                </div>
+                <div class="bg-white p-10 rounded-md">
+                    <div class="text-center mb-5">
+                        <i class='bx bxs-quote-alt-left text-primary text-2xl'></i>
+                    </div>
+
+                    <p class="mb-5 text-center text-sm text-gray-500 italic">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cumque minus rerum unde,
+                        ullam labore
+                        aliquid amet facilis, provident quos neque tempore quaerat blanditiis. Consectetur id tempora
+                        aperiam eius
+                        explicabo.
+                    </p>
+
+                    <img src="./dist/testimoni2.jpeg" alt=""
+                        class="rounded-full block mx-auto w-14 h-14 object-cover mb-3">
+                    <h5 class="text-center text-slate-900 font-medium">Gamma Kristian</h5>
+                </div>
+                <div class="bg-white p-10 rounded-md">
+                    <div class="text-center mb-5">
+                        <i class='bx bxs-quote-alt-left text-primary text-2xl'></i>
+                    </div>
+
+                    <p class="mb-5 text-center text-sm text-gray-500 italic">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cumque minus rerum unde,
+                        ullam labore
+                        aliquid amet facilis, provident quos neque tempore quaerat blanditiis. Consectetur id tempora
+                        aperiam eius
+                        explicabo.
+                    </p>
+
+                    <img src="./dist/testimoni3.jpeg" alt=""
+                        class="rounded-full block mx-auto w-14 h-14 object-cover mb-3">
+                    <h5 class="text-center text-slate-900 font-medium">Galih Siddik</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARTNERS -->
+    <section class="bg-slate-900">
+        <div class="container">
+            <div class="flex items-center flex-wrap md:flex-nowrap justify-center md:justify-between gap-5 md:gap-20">
+                <img src="./dist/partner_logo_1.png" alt="" class="w-20 md:w-full">
+                <img src="./dist/partner_logo_2.png" alt="" class="w-20 md:w-full">
+                <img src="./dist/partner_logo_3.png" alt="" class="w-20 md:w-full">
+                <img src="./dist/partner_logo_4.png" alt="" class="w-20 md:w-full">
+                <img src="./dist/partner_logo_5.png" alt="" class="w-20 md:w-full">
+                <img src="./dist/partner_logo_6.png" alt="" class="w-20 md:w-full">
+            </div>
+        </div>
+    </section>
+
+    <!-- GET IN TOUCH -->
+    <section class="bg-slate-100">
+        <div class="container">
+            <p class="subtitle text-center">get in touch</p>
+            <h5 class="title text-center mb-10">Let's Connect And Collaborate</h5>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 justify-between gap-10">
+                <div class="flex items-center gap-5 md:ms-auto">
+                    <div class="rounded-full w-16 h-16 bg-primary text-white p-3 flex items-center justify-center">
+                        <i class="bx bx-map-pin text-xl"></i>
+                    </div>
+                    <div>
+                        <h5 class="text-slate-900 text-xl font-semibold">Address</h5>
+                        <p class="text-gray-500 text-base font-normal">Probolinggo, Jawa Timur, Indonesia</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-5 md:mx-auto">
+                    <div class="rounded-full w-16 h-16 bg-primary text-white p-3 flex items-center justify-center">
+                        <i class="bx bx-phone text-xl"></i>
+                    </div>
+                    <div>
+                        <h5 class="text-slate-900 text-xl font-semibold">Phone</h5>
+                        <p class="text-gray-500 text-base font-normal">+62 8123 4567 89</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-5 md:ms-auto">
+                    <div class="rounded-full w-16 h-16 bg-primary text-white p-3 flex items-center justify-center">
+                        <i class="bx bx-envelope text-xl"></i>
+                    </div>
+                    <div>
+                        <h5 class="text-slate-900 text-xl font-semibold">Email</h5>
+                        <p class="text-gray-500 text-base font-normal">yunusalmeida@almeida.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
+                <div class="maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22388.77512225988!2d112.73217529795966!3d-7.262034349193043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f966cbf14633%3A0xa3125b26dcc2d9ea!2sTaman%20Prestasi%20Surabaya!5e0!3m2!1sen!2sid!4v1696027745710!5m2!1sen!2sid"
+                        style="border:0;" class="rounded-lg w-full h-[400px]" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <form action="#" method="post">
+                    <div class="grid grid-cols-2 gap-5 mb-5">
+                        <input type="text" name="name" id="name" placeholder="Nama Lengkap"
+                            class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-primary focus:ring-primary">
+                        <input type="text" name="name" id="name" placeholder="Alamat Email"
+                            class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-primary focus:ring-primary">
+                    </div>
+                    <!-- message -->
+                    <div class="mb-5">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Pesan"
+                            class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-primary focus:ring-primary"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-20">
+        <div class="container">
+            <a href="#" class="flex items-baseline justify-center gap-1 text-white font-bold text-3xl mb-5">YA <span
+                    class="w-2 h-2 bg-primary rounded-full"></span></a>
+            <p class="text-gray-400 text-center mb-10">
+                Kilaboris nisi ut aliquip ex ea commodo consequat uis aute cupidatat <br class="none md:block"> non
+                proident
+                sunt in culd est laborum.
+            </p>
+            <div class="flex items-center justify-center gap-10 mb-10">
+                <a href="#" class="text-2xl text-white hover:text-primary transition-all"><i
+                        class="bx bxl-facebook"></i></a>
+                <a href="#" class="text-2xl text-white hover:text-primary transition-all"><i
+                        class="bx bxl-twitter"></i></a>
+                <a href="#" class="text-2xl text-white hover:text-primary transition-all"><i
+                        class="bx bxl-instagram"></i></a>
+                <a href="#" class="text-2xl text-white hover:text-primary transition-all"><i
+                        class="bx bxl-linkedin"></i></a>
+            </div>
+            <p class="text-gray-400 text-center text-sm">Copyright &copy; 2023 All right reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const toggleButton = document.getElementById("navToggle");
+        const hiddenElement = document.getElementById("navMenu");
+
+        toggleButton.addEventListener("click", () => {
+            hiddenElement.classList.toggle("opacity-0");
+            hiddenElement.classList.toggle("invisible");
+
+            hiddenElement.classList.toggle("top-20");
+            hiddenElement.classList.toggle("top-10");
+        });
+    </script>
+</body>
+
+</html>
